@@ -1,10 +1,13 @@
 ######################################################################################################
-						PROJECT 2: COMP 551 - LANGUAGE CLASSIFICATION
+						PROJECT 3: COMP 551 - LANGUAGE CLASSIFICATION
 						author: AMAR KUMAR[amar.kumar@mail.mcgill.ca]
 								Kamila Mustafina[kamila.mustafina@mail.mcgill.ca]
 								Tyler Kolody [tyler.kolody@mail.mcgill.ca]
 						team name : Attack on TitanX
 ######################################################################################################
+
+!!!DATA FOLDER MUST CONTAIN TRAIN_X.CSV AND TRAIN_Y.CSV!!!
+
 File descriptions:
 ---------------------------------------------
 *** LR.ipynb
@@ -98,6 +101,15 @@ output -->	GeneratedData.csv, segmentedImages.csv, training data histogram
 
 details -->	The file is written in Python 3.6
 ---------------------------------------------
+*** cnn_all_conv.py
+input/variables to be modified --> 	train_x.csv
+					train_y.csv
+					test_x.csv
+
+output -->	classes_sample_kaggle.csv, prob_sample_kaggle.csv, CNN_normalized features.csv (kaggle submission file) in the folder output
+		additionally, prints out the accuracy score with the validation set
+
+details -->	The file is written in Python 3.6
 ---------------------------------------------
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''{All the python codes are compatible with Python 2.7/3.6 unless specified.}''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
